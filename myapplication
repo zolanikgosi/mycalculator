@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Equal Button (=)
+        // here is the equal Button (=)
         findViewById<Button>(R.id.equals).setOnClickListener {
             if (firstNumber != null && currentInput.isNotEmpty()) {
                 val secondNumber = currentInput.toDouble()
