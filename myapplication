@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Clear Button
+        //The utilisation of a  Clear Button
         findViewById<Button>(R.id.clear).setOnClickListener {
             currentInput = ""
             firstNumber = null
