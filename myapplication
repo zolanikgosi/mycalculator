@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         // Number Buttons (0-9)
         val numberButtons = listOf(
-
+// these are all the buttons that ill be using for my calculator that relates to the numbers 
             findViewById<Button>(R.id.btnClick1),
             findViewById<Button>(R.id.btnClick2),
             findViewById<Button>(R.id.btnClick3),
