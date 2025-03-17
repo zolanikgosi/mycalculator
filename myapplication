@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Operator Buttons (+, -, *, /)
+        // here are the Operator Buttons (+, -, *, /)
         val operatorButtons = mapOf(
             findViewById<Button>(R.id.add) to "+",
             findViewById<Button>(R.id.minus) to "-",
